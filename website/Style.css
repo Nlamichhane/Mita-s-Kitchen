@@ -1,0 +1,125 @@
+#header {
+   text-align: center;
+   align-items: center;
+   background-color:#0071dc;
+   color: black;
+   margin: 0px;
+   padding: 20px;
+}
+
+#header div a
+{
+   margin-left: 10px;
+   color: black;
+   text-decoration-line: none;
+
+}
+
+#header input
+{
+   height: 20px;
+   width: 200px;
+   margin-left: 500px;
+   border-radius: 5px;
+}
+
+.banner img
+{
+height: 500px;
+width: 500px;
+}
+
+.banner 
+{
+   display: flex;
+   justify-content: center;
+}
+
+.scroll-container {
+   background-color: #e6f1fc;
+   border-radius: 5px;
+   overflow: hidden;
+ }
+
+.scrolling-text h2
+{
+   
+   animation: welcome 15s linear infinite;
+}
+
+@keyframes welcome {
+   0%{transform: translateX(0);}
+   100%{transform: translateX(100%);}
+   
+}
+
+
+.footer {
+  
+   background-color:#0071dc;
+   color: black;
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;  
+}
+
+.footer a
+{
+   color: black;
+   text-decoration-line: none;
+}
+
+.footer a:hover
+{
+   color:#e6f1fc;
+}
+
+.map iframe
+{
+   width: 944px;
+}
+
+
+.food 
+{
+   background-color: #e6f1fc;
+   margin-top: 10px;
+}
+
+.food img
+{
+   display: flex;
+   margin-left:auto;
+   margin-right: auto;
+   width: 500px;
+}
+
+.food h1
+{
+   text-align: center;
+}
+
+.food h2, p
+{
+   text-align: center;
+}
+
+.food-detail
+{
+   margin-bottom: 60px;
+}
+
+.button-primary p{
+   text-align: center;
+   background-color:#0071dc;
+   color: white;
+   padding: 10px;
+   border-radius: 20px;
+   width:fit-content;
+}
+.order
+{
+   margin: 0px;
+   padding: 0px;
+   background-color: #0071dc;
+}
